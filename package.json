@@ -1,0 +1,15 @@
+{
+    "name": "LIFE",
+    "version": "0.0.1",
+    "author": {
+        "name": "Michael Owens",
+        "url": "http://michaelowens.nl"
+    },
+    "devDependencies": {
+        "coffee-script": "1.6.3",
+        "mocha": "1.15.1"
+    },
+    "scripts": {
+        "test": "mocha"
+    }
+}
