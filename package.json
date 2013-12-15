@@ -12,6 +12,7 @@
         "docco": "0.6.2"
     },
     "scripts": {
+        "start": "coffee -l src/LIFE.litcoffee --nodejs",
         "test": "jasmine-node --coffee spec/"
     }
 }
