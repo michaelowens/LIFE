@@ -2,7 +2,7 @@ The **Person** class is a simulator of the human being and extends from LivingCr
 
 Import the necessary files:
 
-    # LivingCreature = require 'LivingCreature'
+    # LivingCreature = require './livingCreature'
 
     module.exports = class Person #extends LivingCreature
 
