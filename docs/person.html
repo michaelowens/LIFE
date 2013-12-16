@@ -75,7 +75,7 @@
             </div>
             
             <div class="content"><div class='highlight'><pre>    <span class="attribute">constructor</span>: <span class="function"><span class="params">(<span class="property">@sex</span>, <span class="property">@age</span>)</span> -&gt;</span>
-        <span class="keyword">throw</span> <span class="keyword">new</span> Error <span class="string">'Incorrect number of arguments, expected 2'</span> <span class="keyword">unless</span> arguments.length
+        <span class="keyword">throw</span> <span class="keyword">new</span> Error <span class="string">'Incorrect number of arguments, expected 1 or more'</span> <span class="keyword">unless</span> arguments.length
         <span class="keyword">throw</span> <span class="keyword">new</span> Error <span class="string">'Incorrect sex'</span> <span class="keyword">unless</span> <span class="property">@sex</span> <span class="keyword">in</span> [<span class="string">'m'</span>, <span class="string">'f'</span>]
 
         <span class="property">@age</span> = <span class="number">0</span> <span class="keyword">unless</span> <span class="property">@age</span>?
