@@ -3,7 +3,7 @@ Person = require '../src/person'
 
 describe 'Person', ->
     it 'should error when incorrect number of parameters given', ->
-        (-> new Person).should.throw 'Incorrect number of arguments, expected 2'
+        (-> new Person).should.throw 'Incorrect number of arguments, expected 1 or more'
         (-> new Person 'm').should.not.throw()
         (-> new Person 'f').should.not.throw()
         (-> new Person 'm', 10).should.not.throw()
